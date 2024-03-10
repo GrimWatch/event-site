@@ -95,7 +95,7 @@ function Overview({ data }) {
 
                     <div className='overview-sub-content'>
                         <span>Price money</span>
-                        <p>{start?.price === undefined ? "1000" : start?.price}</p>
+                        <p>{data.price}</p>
                     </div>
                 </div>
 

@@ -200,7 +200,7 @@ export default function FormDialog() {
                 {nonTechnicalEvent.map((event, index) => {
                   return (
                     <div className='model-form-checkbox' key={index}>
-                      <input type="checkbox" name="technicalEvents" value={event} onChange={handleChange} />
+                      <input type="checkbox" name="nonTechnicalEvents" value={event} onChange={handleChange} />
                       <label>{event}</label>
                     </div>
                   )
