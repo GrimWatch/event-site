@@ -13,7 +13,6 @@ function Home() {
 
     useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-         console.log("the page is reloaded")
     }, [technical])
 
 
