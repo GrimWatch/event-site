@@ -8,13 +8,13 @@ import "./index.css";
 function Home() {
 
 
-    useEffect(() => {
-        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-
-    }, [])
-
     const [technical] = useEvent(`${process.env.REACT_APP_BACKEND}/api/v1/event`)
     const [nontechnical] = useEvent(`${process.env.REACT_APP_BACKEND}/api/v1/event?isTechnical=false`)
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+         console.log("the page is reloaded")
+    }, [technical])
 
 
     return (

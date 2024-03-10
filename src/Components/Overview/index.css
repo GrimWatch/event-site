@@ -19,6 +19,16 @@
 
 }
 
+.overview-sub-content a p{
+  display: flex;
+  flex-wrap: wrap;
+ font-size: 0.8rem;
+ font-weight: bolder;
+ color: #1224ae;
+
+
+}
+
 .overview-content {
   display: flex;
   flex-direction: column;

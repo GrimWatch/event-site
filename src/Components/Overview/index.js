@@ -66,7 +66,7 @@ function Overview({ data }) {
                     <img src={group} alt='group' />
                     <div className='overview-sub-content'>
                         <span>Whatapp group</span>
-                       <a href={data.whatsappGroup}> <p>{data.whatsappGroup}</p></a>
+                       <a href={data.whatsappGroup}> <p>Join whatsapp group</p></a>
                     </div>
                     
                 </div>

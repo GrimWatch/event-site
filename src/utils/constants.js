@@ -1,7 +1,7 @@
 export const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 export const technicalEvent = [
-    "pc-forge",
+    "PC-Forge",
     "Capture the flag",
     "Code Conquest",
     "Paper Presententation",

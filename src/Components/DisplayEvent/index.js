@@ -3,7 +3,7 @@ import { Skeleton } from "@mui/material";
 import './index.css';
 
 function DisplayEvent({ title, events }) {
-    const load = [1, 2, 3]
+    const load = [1, 2, 3,4,5]
 
     return (
         <div className="event-card-container">
