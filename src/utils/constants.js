@@ -4,7 +4,7 @@ export const technicalEvent = [
     "PC-Forge",
     "Capture the flag",
     "Code Conquest",
-    "Paper Presententation",
+    "Paper Presentation",
     "Project Presentation",
     "Technical Quiz",
     "UI/UX Design"
