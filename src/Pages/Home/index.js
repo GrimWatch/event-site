@@ -19,7 +19,7 @@ function Home() {
     useEffect(() => {
         Swal.fire({
           title: 'Announcement!',
-          text: 'Symposium date have been changed from \r 03/04/2024 to 23/04/2024',
+          text: 'Symposium date has been changed from \r 03/04/2024 to 23/04/2024',
           icon: 'warning',
           confirmButtonText: 'OK'
         });
