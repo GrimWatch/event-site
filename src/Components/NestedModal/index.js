@@ -152,9 +152,9 @@ export default function FormDialog() {
 
   return (
     <>
-      <div onClick={handleClickOpen} id="register">
+      {/* <div onClick={handleClickOpen} id="register">
         <RegisterCard />
-      </div>
+      </div> */}
       <Dialog
         open={open}
         onClose={handleClose}

@@ -16,21 +16,23 @@ function Home() {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, [technical])
 
-    useEffect(() => {
-        Swal.fire({
-          title: 'Announcement!',
-          text: 'Symposium been delayed\nindefinitely',
-          icon: 'warning',
-          confirmButtonText: 'OK'
-        });
-      }, []);
+    //useEffect(() => {
+    //    Swal.fire({
+    //    title: 'Announcement!',
+    //      text: 'Symposium been delayed\nindefinitely',
+    //      icon: 'warning',
+    //      confirmButtonText: 'OK'
+    //    });
+    //}, []);
 
 
     return (
         <div className="home-container">
             <Banner />
+            {/* 
             <DisplayEvent title="Technical Events" events={technical?.data} />
             <DisplayEvent title="Non Technical Events" events={nontechnical?.data} />
+            */}
             <Footer />
         </div>
     );
