@@ -29,10 +29,8 @@ function Home() {
     return (
         <div className="home-container">
             <Banner />
-            {/* 
             <DisplayEvent title="Technical Events" events={technical?.data} />
             <DisplayEvent title="Non Technical Events" events={nontechnical?.data} />
-            */}
             <Footer />
         </div>
     );
